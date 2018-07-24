@@ -18,4 +18,4 @@ end
 def word_substituter(tweet)
   tweet_array = tweet.split(" ")
     revised_tweet = []
-      
+      tweet_array.collect do |word|
