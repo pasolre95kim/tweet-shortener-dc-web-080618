@@ -24,3 +24,4 @@ def word_substituter(tweet)
   end
 end
 puts tweet_shortener.join(" ")
+end
