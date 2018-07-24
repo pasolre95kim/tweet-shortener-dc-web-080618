@@ -21,3 +21,5 @@ def word_substituter(tweet)
       tweet_array.collect do |word|
         if dictionary.keys.include?(word.downcase)
           revised_tweet << (dictionary[word.downcase])
+        else
+          revised_tweet << word
