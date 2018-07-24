@@ -46,5 +46,5 @@ def selective_tweet_shortener(tweet)
 end
 
 def shortened_tweet_truncator(tweet)
-  tweet[0..139].gsub(/\s\w+\s*$/,'...')
+  tweet.truncate(139)
 end
