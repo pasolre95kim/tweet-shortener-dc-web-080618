@@ -23,3 +23,6 @@ def word_substituter(tweet)
           revised_tweet << (dictionary[word.downcase])
         else
           revised_tweet << word
+        end
+      end
+    revised_tweet.join(" ")    
